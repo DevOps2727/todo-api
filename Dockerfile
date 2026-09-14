@@ -11,7 +11,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # application code
-COPY app-2.py .
+COPY apps.py .
 
 # app listens on 5000
 EXPOSE 5000
